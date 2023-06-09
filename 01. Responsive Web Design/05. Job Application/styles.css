@@ -1,0 +1,36 @@
+body {
+    background-color: #7070aa;
+  }
+  
+  .application {
+    background-color: #282847;
+    color: white;
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+    width: 60%;
+    margin: auto;
+  }
+  
+  h1, p {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  input{
+    width: 100%;
+    font-family: sans-serif;
+    min-height: 2em;
+    margin: 10px 0 10px 0;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .inline label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  

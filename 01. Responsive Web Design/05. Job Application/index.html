@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<div class="application">
+<head>
+  <title>Survey Form</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<h1 id="title">
+  Job Application
+</h1>
+<p id="description">
+  Please fill out your information and we will reach out to you if you are a good fit for our company.
+</p>
+
+<form id="survey-form">
+  <label id="name-label">Name
+    <input 
+      id="name" 
+      name="full-name" 
+      type="text"
+      placeholder="Enter your name" 
+      required>
+  </label>
+
+  <label id="email-label">Email
+    <input 
+      id="email" 
+      name="email" 
+      type="email" 
+      placeholder="Enter your Email"
+      required>
+  </label>
+
+  <label id="number-label">Phone number
+    <input
+      id="number"
+      name="phonenumber"
+      type="number"
+      pattern="[0-9]"
+      placeholder="Enter your Phone Number"
+      min="10"
+      max="1000000000000">
+  </label>
+
+  <label id="dropdown-label">Which position are you applying for?
+    <select id="dropdown">
+      <option value="">(select one)</option>
+      <option value="tech">Technology</option>
+      <option value="quantdev">Quant Development</option>
+      <option value="quantres">Quant Research</option>
+      <option value="trading">Trading</option>
+    </select>
+  </label>
+
+  <div class="inline">
+  <p>Where did you find us?</p>
+    <label>
+      <input 
+        type="radio" 
+        name="radio-buttons" 
+        value="linkedin">Linkedin
+    </label>
+    <label>
+      <input 
+        type="radio" 
+        name="radio-buttons" 
+        value="github">GitHub
+    </label>
+    <label>
+      <input 
+        type="radio" 
+        name="radio-buttons"
+        value="careerfair">Career Fair
+    </label>
+    <label>
+      <input 
+        type="radio" 
+        name="radio-buttons"
+        value="refferal">Referral
+    </label>
+    <label>
+      <input 
+        type="radio" 
+        name="radio-buttons"
+        value="other">Other
+    </label>
+  </div>
+  
+  <div class="inline">
+  <p>Which offices are you interested in working in?</p>
+  <label>
+    <input type="checkbox" value="sydney">Sydney
+  </label>
+  <label>
+    <input type="checkbox" value="london">London
+  </label>
+  <label>
+    <input type="checkbox" value="newyork">New York
+  </label>
+  <label>
+    <input type="checkbox" value="chicago">Chicago
+  </label>
+  <label>
+    <input type="checkbox" value="hongkong">Hong Kong
+  </label>
+  </div>
+  
+  <label for="bio">
+    Provide a short summary of why we should hire you:
+    <textarea 
+      id="summary" 
+      name="summary" 
+      rows="5" 
+      cols="50" 
+      placeholder="I like coding on the beach..."
+      >
+      </textarea>
+  </label>
+
+<input type="submit" value="Submit" id="submit"/>
+</form>
+</div>
+</html>

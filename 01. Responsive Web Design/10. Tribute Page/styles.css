@@ -1,0 +1,41 @@
+main {
+    font-family: sans-serif;
+    background-color: #f3f3f3;
+    color: #333333;
+  }
+  
+  
+  .header-div {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .img-div {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: auto;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  .tribute-info {
+    margin-bottom: 20px;
+  }
+  
+  .tribute-div {
+    padding-top: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }

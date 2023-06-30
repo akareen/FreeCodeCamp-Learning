@@ -22,10 +22,10 @@ Here is the progress I have made so far on the comprehensive curriculum:
 - [ ] Data Visualization
 - [ ] Relational Database
     - [x] Learn Bash by building a Boilerplate
-    - [ ] Learn Relational Database by building a Mario Database
+    - [x] Learn Relational Database by building a Mario Database
     - [ ] Celestial Bodies Database
     - [ ] Learn Bash Scripting by Building Five Programs
-    - [ ] Learn SQL by building a student database
+    - [x] Learn SQL by building a student database
     - [ ] World Cup Database
     - [ ] Kitty Ipsum Translator
     - [ ] Learn Bash and SQL by building a Bike Rental Shop

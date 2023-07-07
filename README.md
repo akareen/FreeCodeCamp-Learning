@@ -1,6 +1,6 @@
-# FreeCodeCamp-Learning
-A repository for storing all the work I am doing with FreeCodeCamp
+A repository for storing all the work I am doing to learn Full-Stack Development
 
+# FreeCodeCamp-Learning
 Here is the progress I have made so far on the comprehensive curriculum:
 
 - [ ] Responsive Web Design
